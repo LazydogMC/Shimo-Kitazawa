@@ -1,0 +1,69 @@
+# Configuration file for Leaves.
+
+settings:
+  performance:
+    biome-temperatures-use-aging-cache: true
+    entity-target-find-optimization: true
+    remove:
+      inventory-contains-iterators: true
+      get-nearby-players-streams: true
+      tick-guard-lambda: true
+      range-check-streams-and-iterators: true
+    cache-climb-check: true
+    enable-suffocation-optimization: true
+    reduce-entity-fluid-lookup: true
+    optimize-chunk-ticking: true
+    strip-raytracing-for-entity: true
+    inactive-goal-selector-disable: false
+    improve-fluid-direction-caching: true
+    skip-clone-loot-parameters: true
+    fix:
+      fix-paper-6045: true
+    reduce-chuck-load-and-lookup: true
+    check-spooky-season-once-an-hour: true
+    async-mob-spawning: false
+    async-entity-tracker: false
+    async-pathfinding: false
+    dont-send-useless-entity-packets: true
+    optimize-entity-coordinate-key: true
+    skip-poi-find-in-vehicle: true
+    use-more-thread-unsafe-random: true
+    reduce-entity-allocations: true
+    simpler-vanilla-shapeless-recipes: true
+  modify:
+    shears-in-dispenser-can-zero-amount: false
+    instant-block-updater-reintroduced: false
+    player-operation-limiter: false
+    mc-technical-survival-mode: true
+    player-can-edit-sign: true
+    budding-amethyst-can-push-by-piston: true
+    return-nether-portal-fix: true
+    flatten-triangular-distribution: false
+    redstone-shears-wrench: true
+    renewable-elytra: -1.0
+    snowball-and-egg-can-knockback-player: true
+    spectator-dont-get-advancement: false
+    stackable-shulker-boxes: 'false'
+    stick-change-armorstand-arm-status: true
+  misc:
+    extra-yggdrasil-service:
+      enable: true
+      urls:
+      - https://littleskin.cn/api/yggdrasil
+    disable-method-profiler: true
+    no-chat-sign: true
+  protocol:
+    carpet-alternative-block-placement: false
+    pca-sync-protocol: false
+    bbor-protocol: false
+    jade-protocol: true
+    appleskin-protocol: false
+    xaero-map-protocol: true
+    xaero-map-server-id: -189616605
+    pca-sync-player-entity: OPS
+config-version: 2
+world-settings:
+  default: {}
+  world: {}
+  world_nether: {}
+  world_the_end: {}
